@@ -1,13 +1,17 @@
 // bring in React and Component from React
+
 import React, {Component} from 'react';
 
-// define our Hello World components
+// define our Hello component
 class Hello extends Component {
-  // what should the Component render?
+  // what should the component render?
   render () {
     // make sure to return some UI
     return (
-      <h1>Hello World!</h1>
+      <div>
+        <h1>Hello World!</h1>
+        <p>Mavis is awesome.</p>
+      </div>
     )
   }
 }
