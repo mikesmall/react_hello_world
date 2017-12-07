@@ -7,8 +7,8 @@ class Hello extends Component {
     // make sure to return some UI
     return (
       <div>
-        <h1>Hello world!</h1>
-        <h3>It is time for T... Mr. T.</h3>
+        <h1>Hello {this.props.name}!</h1>
+        <h3>It is time for treats.</h3>
       </div>
     )
   }
