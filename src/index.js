@@ -6,8 +6,8 @@ var cat = {
   catName: "Mavis",
   catAge: 13,
   favourites: [
-    "tuna",
-    "chips",
+    "tuna water",
+    "potato chips",
     "coconut oil"
   ]
 }
