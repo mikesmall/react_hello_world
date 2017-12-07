@@ -10,7 +10,7 @@ class Hello extends Component {
         <h1>Hello {this.props.name}!</h1>
         <h3>It is time for treats.</h3>
         <p>Also, you are {this.props.age} years old.</p>
-        <p>How about some {this.props.treats}?</p>
+        <p>How about some {this.props.treats[0]}?</p>
       </div>
     )
   }
