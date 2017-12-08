@@ -17,9 +17,16 @@ class Hello extends Component {
 
   // a trigger event to change the mood counter (increase by 1):
   increaseMood(e) {
-    this.setState({
-      moodPoints: this.state.moodPoints +1
-    });
+    if (this.state.moodPoints === 10) {
+      // at 10, wrap to 1
+      this.setState({
+        moodPoints: 1
+      })
+    } else {
+      this.setState({
+        moodPoints: this.state.moodPoints +1
+      })
+    }
   }
 
   // render/return UI:
