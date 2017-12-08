@@ -28,11 +28,10 @@ class Hello extends Component {
         <p>Also, you are {this.props.age} years old.</p>
         <p>Want some {this.props.treats[0]}?</p>
         <p>On a scale of 1 to 10, you are this happy: {this.state.moodPoints}</p>
+        <button onClick={(e) => this.increaseMood(e)}>Cheer up, kitten!</button>
       </div>
     )
   }
 }
 
 export default Hello
-
-// note how similar returning 'state' looks to accessing props:
