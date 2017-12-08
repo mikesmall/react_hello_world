@@ -4,7 +4,7 @@ class MoodTracker extends Component {
   render () {
     return (
       <div>
-        <p>MoodTracker!</p>
+        <p>This is a MoodTracker object.</p>
       </div>
     )
   }
